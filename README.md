@@ -1,15 +1,17 @@
-# Smart Movie Recommendation Engine 🎬
+# 🎬 Smart Movie Recommendation Engine (Hybrid Filtering)
 
-Hybrid recommender system using:
-- Collaborative Filtering (Surprise)
-- Content-Based Filtering
-- Sentiment Analysis (VADER)
+This app combines collaborative filtering (Surprise), content-based filtering, and optional sentiment-based tuning using the MovieLens dataset.
 
-## Run Locally
+## 🔧 How to Run Locally
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deployment
-Use [Streamlit Cloud](https://streamlit.io/cloud) to deploy this project.
+## ☁️ Deploy on Streamlit Cloud
+
+Make sure the following files are present in the root:
+- `app.py`
+- `requirements.txt`
+- `runtime.txt`
