@@ -2,5 +2,5 @@ streamlit
 pandas
 scikit-learn
 numpy
-surprise
 nltk
+scikit-surprise
